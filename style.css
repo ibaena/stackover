@@ -3,3 +3,31 @@ hr{
 	border-color:  black;
 	width: 100%;
 }
+
+.dropdown {
+  text-align:left;
+  margin-top: 8px;
+}
+
+.breadcrumb {
+	background-color: none;
+}
+
+.stack {
+	margin-bottom: 5px;
+	padding-bottom: 15px;
+}
+
+.tags {
+	text-align: right;
+}
+
+.tags, .subhead {
+	padding-bottom: 10px;
+}
+
+.lbreak {
+	border-bottom: 1px solid black !important;
+	margin-bottom: 30px;
+	border-bottom: 50px;
+}
