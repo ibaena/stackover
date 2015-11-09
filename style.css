@@ -4,10 +4,11 @@ hr{
 	width: 100%;
 }
 
-.dropdown {
+.dropdown, .signup, .signin {
   text-align:left;
   margin-top: 8px;
 }
+
 
 .breadcrumb {
 	background-color: none;
