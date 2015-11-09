@@ -15,8 +15,8 @@
 .se-logo-resize {
 	height: auto;
 	width: auto;
-	max-height: 50px;
-	max-width: 200px;
+	max-height: 25px;
+	max-width: 100px;
 }
 
 .footer-black {
@@ -50,4 +50,8 @@ ul {
 .table-margin {
 	margin-top: 40px;
 	margin-bottom: 20px;
+}
+
+.bottom-text {
+	color: #bbb;
 }

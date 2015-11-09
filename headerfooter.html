@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="practice-page.css">
+<link rel="stylesheet" type="text/css" href="headerfooter.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
-	<title>Bootstrap practice</title>
+	<title>Stack Overflow Mockup</title>
 </head>
 <body>
 	<header>
@@ -20,14 +20,17 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="#"><img class="se-logo-resize" src="se-logo.png"></a>
+	      <div class="dropdown">
+	      <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"><a class="navbar-brand" href="#"><img class="se-logo-resize" src="se-logo.png"></a>
+	      </button>
+	      </div>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav">
-	        <li class="active"><a href="#">Recent inbox<span class="sr-only">(current)</span></a></li>
-	        <li><a href="#">Achievements</a></li>
+	        <li class="active"><a href="#"><button class="btn btn-default">Recent inbox</button><span class="sr-only">(current)</span></a></li>
+	        <li><a href="#"><button class="btn btn-default">Achievements</button></a></li>
 	        <!--  <li class="dropdown">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
 	          <ul class="dropdown-menu">
@@ -84,11 +87,11 @@
 	</header>
 
 	<body>
-	BODY CONTENT HERE
+	<!--BODY CONTENT-->
 	</body>
 
 	<aside>
-	ASIDE CONTENT HERE
+	<!--ASIDE CONTENT-->
 	</aside>
 
 	<footer class="footer-black">
@@ -200,10 +203,13 @@
 					</ul>
 				</td>
 			</tr>
-				
 		</table>
 		</div>
+			<div class="bottom-text">
+				<small>StackOverflow mock up by Ivan, Matt, and Jeff</small>
+			</div>
 		</div>
+
 	</footer>
 
 </body>
