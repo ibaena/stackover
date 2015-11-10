@@ -38,13 +38,18 @@ nav a {
 }
 
 #tr-text-color {
-	color: #bbb;
+	color: #fff;
 }
 
-ul {
+ol {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+}
+
+li a {
+	color: #bbb;
+	font-size: 12px;
 }
 
 .table-margin {
