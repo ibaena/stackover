@@ -60,3 +60,11 @@ li a {
 .bottom-text {
 	color: #bbb;
 }
+
+#sign-in {
+	list-style-type: none;
+}
+
+#sign-up-field-pad {
+	padding: 20px;
+}

@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Sign Up for StackOverflow</title>
+</head>
+<body>
 <link rel="stylesheet" type="text/css" href="headerfooter.css">
+
+<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
-	<title>Stack Overflow Mockup</title>
-</head>
-<body>
+
+
+
 	<header>
 		<nav class="navbar navbar-inverse">
 	  <div class="container-fluid">
@@ -43,9 +48,7 @@
 	            <li><a href="#">One more separated link</a></li>
 	          </ul>
 	        </li> -->
-	      	<li><button class="btn btn-default"><a href="sign-up.html">Sign up</a></button>
-	      	<br>
-	      	<a href="sign-in.html">Already a member?</a>
+	      	<a id="sign-in" href="sign-in.html">Already a member?</a>
 	      	</li>
 	      </ul>
 	      <form class="navbar-form navbar-right" role="search">
@@ -73,10 +76,10 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6" "col-xs-6">
+			<div class="col-sm-6">
 				<a href="#"><img src="logo.png" class="logo-resize" /></a>
 			</div>
-			<div class="col-sm-6" "col-xs-6">
+			<div class="col-sm-6">
 			<div align="right" id="btn-color">
 				<button type="button" class="btn">Questions</button>
 				<button type="button" class="btn">Tags</button>
@@ -88,305 +91,28 @@
 			</div>
 		</div>
 	</div>
-	</header>
 
-	<body>
-		<div class="container">
-			<div class = "row">
-			<div class = "col-xs-9">
-			<div class="container">
-					<div class="row">
-						<div class="col-xs-9">
-								<ul class="nav nav-tabs">
-									<div class="col-xs-6">
-										<li role="presentation"><h4>Top Questions</h4></li>
-									</div>
-									<li role="presentation" class="active"><a href="#">interesting</a></li>
-								  <li role="presentation"><a href="#">featured</a></li>
-								  <li role="presentation"><a href="#">hot</a></li>
-								  <li role="presentation"><a href="#">week</a></li>
-								  <li role="presentation"><a href="#">month</a></li>
-								</ul>
-						</div>
-					</div>
-
-
-					<div class="row mv-top">
-						<div class="col-xs-9">
-							<div class="vote-count">
-								<div class="col-xs-1">0</div>
-							</div>
-							<div class="vote-count">
-								<div class="col-xs-1">1</div>
-							</div>
-							<div class="vote-count">
-								<div class="col-xs-1" id="shift-right">9</div>
-							</div>
-								<div class="main-link">
-									<div class="col-xs-9"><a href="#" id="question">jdbc/TestDB is not bound in this Context. Unable to find jdbc</a></div>
-								</div>
-						</div>
-						<br />
-
-						<div class="row">
-							<div class="col-xs-9">
-								<div class="text-small">
-									<div class="col-xs-1">vote</div>
-								</div>
-								<div class="text-small">
-									<div class="col-xs-1">answers</div>
-								</div>
-								<div class="text-small">
-									<div class="col-xs-1" id="views">views</div>
-								</div>			
-								<div class="text-small">
-									<div class="col-xs-1" id="jbdc"><a href="#" class="color-change">jbdc</a></div>
-								</div>
-								<div class="text-small">
-									<div class="col-xs-2" id="connect"><a href="#" class="color-change">connection-pooling</a></div>
-								</div>
-		            <div class="text-small">
-		              <div class="col-xs-5 move-down">
-		                <p class="p-resize"><a href="#" id="asked">modified 24 secs ago&nbsp;</a></p>
-		                <p class="p-resize"><a href="#" id="contributor">Preethi Jain&nbsp;</a></p>
-		                <p class="p-resize">5,050&nbsp;</p>
-		              </div>
-		            </div>
-							</div>
-						</div>
-						<br />
-					</div>
-
-					<div class="row mv-top">
-						<div class="col-xs-9">
-							<div class="vote-count">
-								<div class="col-xs-1">0</div>
-							</div>
-							<div class="vote-count">
-								<div class="col-xs-1">0</div>
-							</div>
-							<div class="vote-count">
-								<div class="col-xs-1" id="shift-right">1</div>
-							</div>
-								<div class="main-link">
-									<div class="col-xs-9"><a href="#" id="question">Couldn't enqueue task in queue in Google App Engine</a></div>
-								</div>
-						</div>
-						<br />
-
-						<div class="row">
-							<div class="col-xs-9">
-								<div class="text-small">
-									<div class="col-xs-1">vote</div>
-								</div>
-								<div class="text-small">
-									<div class="col-xs-1">answers</div>
-								</div>
-								<div class="text-small">
-									<div class="col-xs-1" id="views">views</div>
-								</div>			
-								<div class="text-small">
-									<div class="col-xs-1" id="jbdc"><a href="#" class="color-change">Python</a></div>
-								</div>
-								<div class="text-small">
-									<div class="col-xs-2" id="connect"><a href="#" class="color-change">Google App Engine</a></div>
-								</div>
-		            <div class="text-small">
-		              <div class="col-xs-5 move-down">
-		                <p class="p-resize"><a href="#" id="asked">asked 26 secs ago&nbsp;</a></p>
-		                <p class="p-resize"><a href="#" id="contributor">Selva&nbsp;</a></p>
-		                <p class="p-resize">1&nbsp;</p>
-		              </div>
-		            </div>
-							</div>
-						</div>
-						<br />
-					</div>
-
-					<div class="row mv-top">
-						<div class="col-xs-9">
-							<div class="vote-count">
-								<div class="col-xs-1">0</div>
-							</div>
-							<div class="vote-count">
-								<div class="col-xs-1">1</div>
-							</div>
-							<div class="vote-count">
-								<div class="col-xs-1" id="shift-right">9</div>
-							</div>
-								<div class="main-link">
-									<div class="col-xs-9"><a href="#" id="question">How to change document root with Plesk 12</a></div>
-								</div>
-						</div>
-						<br />
-
-						<div class="row">
-							<div class="col-xs-9">
-								<div class="text-small">
-									<div class="col-xs-1">vote</div>
-								</div>
-								<div class="text-small">
-									<div class="col-xs-1">answers</div>
-								</div>
-								<div class="text-small">
-									<div class="col-xs-1" id="views">views</div>
-								</div>			
-								<div class="text-small">
-									<div class="col-xs-1" id="jbdc"><a href="#" class="color-change">server</a></div>
-								</div>
-								<div class="text-small">
-									<div class="col-xs-2" id="connect"><a href="#" class="color-change">Plesk</a></div>
-								</div>
-		            <div class="text-small">
-		              <div class="col-xs-5 move-down">
-		                <p class="p-resize"><a href="#" id="asked">asked 27 secs ago&nbsp;</a></p>
-		                <p class="p-resize"><a href="#" id="contributor">AndreasK&nbsp;</a></p>
-		                <p class="p-resize">13&nbsp;</p>
-		              </div>
-		            </div>
-							</div>
-						</div>
-						<br />
-					</div>		
-
-					<div class="row mv-top">
-						<div class="col-xs-9">
-							<div class="vote-count">
-								<div class="col-xs-1">0</div>
-							</div>
-							<div class="vote-count">
-								<div class="col-xs-1">1</div>
-							</div>
-							<div class="vote-count">
-								<div class="col-xs-1" id="shift-right">9</div>
-							</div>
-								<div class="main-link">
-									<div class="col-xs-9"><a href="#" id="question">SpriteKit: White Background As SKScene</a></div>
-								</div>
-						</div>
-						<br />
-
-						<div class="row">
-							<div class="col-xs-9">
-								<div class="text-small">
-									<div class="col-xs-1">vote</div>
-								</div>
-								<div class="text-small">
-									<div class="col-xs-1">answers</div>
-								</div>
-								<div class="text-small">
-									<div class="col-xs-1" id="views">views</div>
-								</div>			
-								<div class="text-small">
-									<div class="col-xs-1" id="jbdc"><a href="#" class="color-change">swift</a></div>
-								</div>
-								<div class="text-small">
-									<div class="col-xs-2" id="connect"><a href="#" class="color-change">background</a></div>
-								</div>
-		            <div class="text-small">
-		              <div class="col-xs-5 move-down">
-		                <p class="p-resize"><a href="#" id="asked">asked 31 secs ago&nbsp;</a></p>
-		                <p class="p-resize"><a href="#" id="contributor">Lucas Kohl&nbsp;</a></p>
-		                <p class="p-resize">5,050&nbsp;</p>
-		              </div>
-		            </div>
-							</div>
-						</div>
-						<br />
-					</div>
-
-
-					<div class="row mv-top">
-						<div class="col-xs-9">
-							<div class="vote-count">
-								<div class="col-xs-1">0</div>
-							</div>
-							<div class="vote-count">
-								<div class="col-xs-1">1</div>
-							</div>
-							<div class="vote-count">
-								<div class="col-xs-1" id="shift-right">9</div>
-							</div>
-								<div class="main-link">
-									<div class="col-xs-9"><a href="#" id="question">jSwift extend UIViewAnimationCurve</a></div>
-								</div>
-						</div>
-						<br />
-
-						<div class="row">
-							<div class="col-xs-9">
-								<div class="text-small">
-									<div class="col-xs-1">vote</div>
-								</div>
-								<div class="text-small">
-									<div class="col-xs-1">answers</div>
-								</div>
-								<div class="text-small">
-									<div class="col-xs-1" id="views">views</div>
-								</div>			
-								<div class="text-small">
-									<div class="col-xs-1" id="jbdc"><a href="#" class="color-change">ios</a></div>
-								</div>
-								<div class="text-small">
-									<div class="col-xs-2" id="connect"><a href="#" class="color-change">enums</a></div>
-								</div>
-		            <div class="text-small">
-		              <div class="col-xs-5 move-down">
-		                <p class="p-resize"><a href="#" id="asked">asked 57 secs ago&nbsp;</a></p>
-		                <p class="p-resize"><a href="#" id="contributor">Cody Weaver&nbsp;</a></p>
-		                <p class="p-resize">137&nbsp;</p>
-		              </div>
-		            </div>
-							</div>
-						</div>
-						<br />
-					</div>
-
-				</div>
-			</div>
-			<div class="col-xs-3" "col-sm-3">
-					<div class="well">
-						<p>Featured On Meta</p>
-							<hr>
-						<p>New Navigation Release Candidate</p>
-							<hr>
-						<p>Hot Meta Post</p>
-						<p>7 I can't imagine why this NAA flag was declined</p>
-						<p>7 What kind of Audit is that?</p>
-						<p>14 How one should add UML diagrams to the question or answer</p>
-					</div>
-					<div class="well">
-						<p>Favorite Tags <a href="#">edit</a></p>
-						<p><a href="#">javascript html5 css github mysql</a></p>
-					</div>
-					<div class="well">
-						<p>Looking For a Job</p>
-						<p><a href="#">Software Developer, Web based visualization applications</a></p>
-						<p>OSIsoft</p>
-						<p>Philadelphia, PA / relocation</p>
-						<p><a href="#">css</a> <a href="#">html</a></p>
-						<p><a href="#">Data Visualization Front-End Developer</a></p>
-						<p>Two-N</p>
-						<p>New York, NY/ relocation</p>
-						<p><a href="#">html5</a> <a href="#">dsj3</a></p>
-					</div>
-					<div class="well">
-						<p> <a href="#">Hot Network Questions</a></p>
-						<p> <a href="#">How to create a list with numbering greek letters?</a></p>
-						<p> <a href="#">I was let go because I internally fought against unlawful overtime, how do I explain that in interviews?</a></p>
-						<p> <a href="#">What is the "fundamental" difference between ‘search’ and ‘seek’?</a></p>
-						<p> <a href="#">equation number to appear at center of multiline equation in the align environment</a></p>
-						<p> <a href="#">Can I initialize a static const member at run-time in C++?</a></p>
-					</div>
-			</div>
-			</div>
-			</div>
-			</div>
-	</body>
-
-	<aside>
-	<!--ASIDE CONTENT-->
-	</aside>
+<div class="container" id="sign-up-field-pad">
+  <h2>Become a member!</h2>
+  <form role="form">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Repeat Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
 
 	<footer class="footer-black">
 		<div class="container">
@@ -607,6 +333,7 @@
 		</div>
 
 	</footer>
+
 
 </body>
 </html>
